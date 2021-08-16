@@ -1,7 +1,7 @@
 use std::fs::File;
 
 use crate::index::Index;
-use grenad::CompressionType;
+use milli::CompressionType;
 use milli::update::UpdateBuilder;
 use rayon::ThreadPool;
 
